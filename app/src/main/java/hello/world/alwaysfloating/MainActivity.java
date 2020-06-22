@@ -17,7 +17,7 @@ import com.gun0912.tedpermission.TedPermission;
 
 import java.util.ArrayList;
 import java.util.List;
-
+//test commit
 public class MainActivity extends AppCompatActivity {
 
     private static final int APP_PERMISSION_REQUEST = 102;
