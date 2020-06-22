@@ -1,0 +1,66 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="hello.world.alwaysfloating"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\Jo\AndroidStudioProjects\AlwaysFloating\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Jo\AndroidStudioProjects\AlwaysFloating\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\Jo\AndroidStudioProjects\AlwaysFloating\app\src\main\AndroidManifest.xml:6:5-77
+11-->C:\Users\Jo\AndroidStudioProjects\AlwaysFloating\app\src\main\AndroidManifest.xml:6:22-75
+12
+13    <application
+13-->C:\Users\Jo\AndroidStudioProjects\AlwaysFloating\app\src\main\AndroidManifest.xml:8:5-28:19
+14        android:allowBackup="true"
+14-->C:\Users\Jo\AndroidStudioProjects\AlwaysFloating\app\src\main\AndroidManifest.xml:9:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.1.0] C:\Users\Jo\.gradle\caches\transforms-2\files-2.1\03736cf4bc3669a69d502627b70a527e\core-1.1.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\Jo\AndroidStudioProjects\AlwaysFloating\app\src\main\AndroidManifest.xml:10:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\Jo\AndroidStudioProjects\AlwaysFloating\app\src\main\AndroidManifest.xml:11:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\Jo\AndroidStudioProjects\AlwaysFloating\app\src\main\AndroidManifest.xml:12:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\Jo\AndroidStudioProjects\AlwaysFloating\app\src\main\AndroidManifest.xml:13:9-35
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme" >
+22-->C:\Users\Jo\AndroidStudioProjects\AlwaysFloating\app\src\main\AndroidManifest.xml:14:9-40
+23        <service
+23-->C:\Users\Jo\AndroidStudioProjects\AlwaysFloating\app\src\main\AndroidManifest.xml:16:9-19:39
+24            android:name="hello.world.alwaysfloating.FloatingService"
+24-->C:\Users\Jo\AndroidStudioProjects\AlwaysFloating\app\src\main\AndroidManifest.xml:17:13-44
+25            android:enabled="true"
+25-->C:\Users\Jo\AndroidStudioProjects\AlwaysFloating\app\src\main\AndroidManifest.xml:18:13-35
+26            android:exported="false" />
+26-->C:\Users\Jo\AndroidStudioProjects\AlwaysFloating\app\src\main\AndroidManifest.xml:19:13-37
+27
+28        <activity android:name="hello.world.alwaysfloating.MainActivity" >
+28-->C:\Users\Jo\AndroidStudioProjects\AlwaysFloating\app\src\main\AndroidManifest.xml:21:9-27:20
+28-->C:\Users\Jo\AndroidStudioProjects\AlwaysFloating\app\src\main\AndroidManifest.xml:21:19-47
+29            <intent-filter>
+29-->C:\Users\Jo\AndroidStudioProjects\AlwaysFloating\app\src\main\AndroidManifest.xml:22:13-26:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->C:\Users\Jo\AndroidStudioProjects\AlwaysFloating\app\src\main\AndroidManifest.xml:23:17-69
+30-->C:\Users\Jo\AndroidStudioProjects\AlwaysFloating\app\src\main\AndroidManifest.xml:23:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->C:\Users\Jo\AndroidStudioProjects\AlwaysFloating\app\src\main\AndroidManifest.xml:25:17-77
+32-->C:\Users\Jo\AndroidStudioProjects\AlwaysFloating\app\src\main\AndroidManifest.xml:25:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity
+35-->[gun0912.ted:tedpermission:2.0.0] C:\Users\Jo\.gradle\caches\transforms-2\files-2.1\0d3f513d3344a5b82e6b72335e6fbd17\jetified-tedpermission-2.0.0\AndroidManifest.xml:10:9-12:67
+36            android:name="com.gun0912.tedpermission.TedPermissionActivity"
+36-->[gun0912.ted:tedpermission:2.0.0] C:\Users\Jo\.gradle\caches\transforms-2\files-2.1\0d3f513d3344a5b82e6b72335e6fbd17\jetified-tedpermission-2.0.0\AndroidManifest.xml:11:13-75
+37            android:theme="@style/Theme.Transparent.Permission" />
+37-->[gun0912.ted:tedpermission:2.0.0] C:\Users\Jo\.gradle\caches\transforms-2\files-2.1\0d3f513d3344a5b82e6b72335e6fbd17\jetified-tedpermission-2.0.0\AndroidManifest.xml:12:13-64
+38    </application>
+39
+40</manifest>
