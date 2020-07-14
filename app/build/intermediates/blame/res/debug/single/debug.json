@@ -16,12 +16,12 @@
         "source": "C:\\Users\\Jo\\AndroidStudioProjects\\AlwaysFloating\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\Jo\\AndroidStudioProjects\\AlwaysFloating\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "C:\\Users\\Jo\\AndroidStudioProjects\\AlwaysFloating\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
-    },
-    {
         "merged": "C:\\Users\\Jo\\AndroidStudioProjects\\AlwaysFloating\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_item.xml.flat",
         "source": "C:\\Users\\Jo\\AndroidStudioProjects\\AlwaysFloating\\app\\src\\main\\res\\layout\\list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jo\\AndroidStudioProjects\\AlwaysFloating\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Jo\\AndroidStudioProjects\\AlwaysFloating\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
         "merged": "C:\\Users\\Jo\\AndroidStudioProjects\\AlwaysFloating\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",

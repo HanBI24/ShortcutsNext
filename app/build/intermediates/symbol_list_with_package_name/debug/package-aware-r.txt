@@ -827,6 +827,7 @@ id search_src_text
 id search_voice_btn
 id selectBtn
 id select_dialog_listview
+id selected_app_list
 id shortcut
 id showCustom
 id showHome
@@ -954,6 +955,7 @@ string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string app_name
 string search_menu_title
+string start
 string status_bar_notification_info_overflow
 string tedpermission_close
 string tedpermission_confirm

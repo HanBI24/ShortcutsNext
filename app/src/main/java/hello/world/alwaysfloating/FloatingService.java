@@ -16,6 +16,7 @@ import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.WindowManager;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.GridView;
 import android.widget.ImageView;
@@ -74,8 +75,8 @@ public class FloatingService extends Service {
         final View expandedView = mFloatingWidget.findViewById(R.id.expanded_container);
         final GridView expandedList = mFloatingWidget.findViewById(R.id.expand_list);
         PackageManager pm = getPackageManager();
-        List<ApplicationInfo> infos = pm.getInstalledApplications(PackageManager.GET_META_DATA);
-        AppInfoAdapter adapter = new AppInfoAdapter(infos);
+        List<ApplicationInfo> info = pm.getInstalledApplications(PackageManager.GET_META_DATA);
+        AppInfoAdapter adapter = new AppInfoAdapter(info);
         expandedList.setAdapter(adapter);
 
 

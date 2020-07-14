@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\Jo\\AndroidStudioProjects\\AlwaysFloating\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ko\\values-ko.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Jo\\.gradle\\caches\\transforms-2\\files-2.1\\0d3f513d3344a5b82e6b72335e6fbd17\\jetified-tedpermission-2.0.0\\res\\values-ko\\values-ko.xml",
+                    "source": "C:\\Users\\Jo\\.gradle\\caches\\transforms-2\\files-2.1\\26c40735cb3bc70ac5374d806f2fb8ae\\jetified-tedpermission-2.0.0\\res\\values-ko\\values-ko.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",

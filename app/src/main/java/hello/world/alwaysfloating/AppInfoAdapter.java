@@ -51,8 +51,7 @@ public class AppInfoAdapter extends BaseAdapter {
 
         return convertView;
     }
-    class ViewHolder {
-        ImageView imageView;
-        TextView textView;
-    }
+}
+class ViewHolder {
+    ImageView imageView;
 }
